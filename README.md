@@ -1,11 +1,16 @@
-# 30 Days of Python — Interactive CLI
+# learn python in fun way in CLI
 
-Learn Python in your terminal: read a short lesson, take a quick quiz, then write real code that is
-**automatically tested**. Progress, streaks and time studied are saved between sessions.
+## this project is an vibe coded bullshit for my adhd for learning python
+
+### here i give y'll this and also im dedicating this for my friend *NIDHA*
+
+for context this program has save system that will save all progress and has quiz , tasks . for each day. 
+and also to not forget i will mention @Asabeneh made an repo for this and i turned it into this program
 
 ## Quick start
 
 ```bash
+git clone https://github.com/foreveruncrackable/learn-python-in-cli
 cd 30-days-of-python-cli
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt                      # just `rich`
