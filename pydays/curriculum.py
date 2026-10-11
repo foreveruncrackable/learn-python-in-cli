@@ -1,0 +1,36 @@
+"""The 30-day curriculum outline (titles and topic lists)."""
+
+CURRICULUM = [
+    {"day": 1, "title": 'Introduction & Setup', "topics": ['What is Python?', 'Installation', 'Python Shell', 'VS Code', 'Hello World']},
+    {"day": 2, "title": 'Variables & Data Types', "topics": ['Variables', 'Data Types', 'Type Casting', 'Numbers', 'Strings basics']},
+    {"day": 3, "title": 'Operators', "topics": ['Arithmetic', 'Comparison', 'Logical', 'Assignment', 'Identity', 'Membership']},
+    {"day": 4, "title": 'Strings', "topics": ['String creation', 'Slicing', 'Methods', 'Formatting', 'Escape sequences']},
+    {"day": 5, "title": 'Lists', "topics": ['List creation', 'Accessing items', 'Slicing', 'Methods', 'List comprehension intro']},
+    {"day": 6, "title": 'Tuples', "topics": ['Tuple creation', 'Accessing', 'Slicing', 'Methods', 'When to use tuples']},
+    {"day": 7, "title": 'Sets', "topics": ['Set creation', 'Adding items', 'Removing', 'Set operations', 'When to use sets']},
+    {"day": 8, "title": 'Dictionaries', "topics": ['Dict creation', 'Accessing', 'Adding/Removing', 'Methods', 'Iteration']},
+    {"day": 9, "title": 'Conditionals', "topics": ['if', 'if-else', 'if-elif-else', 'Ternary', 'Nested conditions']},
+    {"day": 10, "title": 'Loops', "topics": ['for loop', 'while loop', 'break/continue', 'Nested loops', 'enumerate/zip']},
+    {"day": 11, "title": 'Functions', "topics": ['Defining functions', 'Parameters', 'Return', 'Lambda', 'Scope']},
+    {"day": 12, "title": 'Modules', "topics": ['Importing', 'Standard modules', 'Creating modules', 'pip', 'Virtual envs']},
+    {"day": 13, "title": 'List Comprehension', "topics": ['Basic syntax', 'With conditions', 'Nested', 'Dict comprehension', 'Performance']},
+    {"day": 14, "title": 'Higher Order Functions', "topics": ['map()', 'filter()', 'reduce()', 'sorted()', 'Closures']},
+    {"day": 15, "title": 'Type Errors & Debugging', "topics": ['Common errors', 'Debugging tips', 'pdb', 'Logging', 'Best practices']},
+    {"day": 16, "title": 'Date & Time', "topics": ['datetime module', 'Formatting', 'Timezones', 'timedelta', 'time module']},
+    {"day": 17, "title": 'Exception Handling', "topics": ['try/except', 'Multiple except', 'finally', 'Custom exceptions', 'Best practices']},
+    {"day": 18, "title": 'Regular Expressions', "topics": ['re module', 'Patterns', 'search/match', 'findall', 'substitution']},
+    {"day": 19, "title": 'File Handling', "topics": ['Reading files', 'Writing files', 'With statement', 'CSV/JSON', 'File paths']},
+    {"day": 20, "title": 'Package Management', "topics": ['pip', 'requirements.txt', 'Virtual environments', 'Poetry', 'Best practices']},
+    {"day": 21, "title": 'Classes & OOP', "topics": ['Classes', 'Objects', 'Inheritance', 'Polymorphism', 'Encapsulation']},
+    {"day": 22, "title": 'Web Scraping', "topics": ['requests', 'BeautifulSoup', 'HTML parsing', 'Extracting data', 'Ethics']},
+    {"day": 23, "title": 'Virtual Environments', "topics": ['venv', 'virtualenv', 'pipenv', 'Managing deps', 'Best practices']},
+    {"day": 24, "title": 'Statistics', "topics": ['statistics module', 'Mean/Median/Mode', 'Standard deviation', 'Variance', 'Data analysis']},
+    {"day": 25, "title": 'Pandas', "topics": ['DataFrames', 'Series', 'Reading data', 'Filtering', 'Basic operations']},
+    {"day": 26, "title": 'Python Web (Flask)', "topics": ['Flask basics', 'Routes', 'Templates', 'Forms', 'Deployment']},
+    {"day": 27, "title": 'Python with MongoDB', "topics": ['pymongo', 'CRUD', 'Queries', 'Aggregation', 'Best practices']},
+    {"day": 28, "title": 'APIs', "topics": ['REST', 'requests', 'JSON handling', 'API design', 'Authentication']},
+    {"day": 29, "title": 'Building APIs', "topics": ['Flask REST', 'Endpoints', 'CRUD API', 'Testing', 'Documentation']},
+    {"day": 30, "title": 'Conclusions & Next Steps', "topics": ['Review', 'Projects', 'Resources', 'Community', 'Keep learning']},
+]
+
+TOTAL_DAYS = len(CURRICULUM)

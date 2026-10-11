@@ -1,0 +1,3 @@
+-r requirements.txt
+-r requirements-extras.txt
+pytest>=7.0
